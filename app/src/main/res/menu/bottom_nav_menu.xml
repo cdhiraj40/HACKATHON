@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    TODO: CHANGE ICONS FROM ONLINE MAYBE-->
+<item
+    android:id="@+id/homeFragment"
+    android:icon="@drawable/ic_baseline_home_24"
+    android:title="@string/bottom_nav_home" />
+<item
+    android:id="@+id/diaryListFragment"
+    android:icon="@drawable/ic_baseline_menu_book_24"
+    android:title="@string/bottom_nav_diary" />
+
+<item
+    android:id="@+id/musicFragment"
+    android:icon="@drawable/ic_baseline_library_music_24"
+    android:title="@string/bottom_nav_music" />
+<item
+    android:id="@+id/settingsFragment"
+    android:icon="@drawable/ic_baseline_settings_24"
+    android:title="@string/settings" />
+</menu>
