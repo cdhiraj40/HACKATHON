@@ -1,4 +1,4 @@
-package com.example.hackfit2021.Model
+package com.example.hackfit2021.model
 
 import androidx.lifecycle.*
 import com.example.hackfit2021.database.JournalsDatabase

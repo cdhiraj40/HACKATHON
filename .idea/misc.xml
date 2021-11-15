@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ishir/AndroidProjects/MENTIS-REM-HACKFIT-2021/app/src/main/res/drawable-v24/ic_check.xml" value="0.2484375" />
+        <entry key="..\:/Users/ishir/AndroidProjects/MENTIS-REM-HACKFIT-2021/app/src/main/res/drawable-v24/ic_pulse.xml" value="0.2484375" />
+        <entry key="..\:/Users/ishir/AndroidProjects/MENTIS-REM-HACKFIT-2021/app/src/main/res/drawable-v24/rectangle.xml" value="0.2484375" />
+        <entry key="..\:/Users/ishir/AndroidProjects/MENTIS-REM-HACKFIT-2021/app/src/main/res/layout/activity_introductory.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/ishir/AndroidProjects/MENTIS-REM-HACKFIT-2021/app/src/main/res/layout/activity_splash.xml" value="0.17617753623188406" />
+        <entry key="..\:/Users/ishir/AndroidProjects/MENTIS-REM-HACKFIT-2021/app/src/main/res/layout/fragment_home.xml" value="0.17617753623188406" />
         <entry key="app/src/main/res/drawable/bg_circle_inner.xml" value="0.17592592592592593" />
         <entry key="app/src/main/res/drawable/bg_circle_outer.xml" value="0.17592592592592593" />
         <entry key="app/src/main/res/drawable/bottom_nav_b.xml" value="0.15989583333333332" />
