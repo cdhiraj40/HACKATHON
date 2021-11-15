@@ -1,7 +1,5 @@
 package com.example.hackfit2021.fragments
 
-import android.graphics.Color
-import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -14,11 +12,12 @@ import kotlinx.android.synthetic.main.fragment_calendar.*
 import java.text.SimpleDateFormat
 import java.util.*
 import com.applandeo.materialcalendarview.EventDay
-import com.example.hackfit2021.Model.RatingViewModel
-import com.example.hackfit2021.Model.RatingViewModelFactory
+import com.example.hackfit2021.model.RatingViewModel
+import com.example.hackfit2021.model.RatingViewModelFactory
+
+
 import com.example.hackfit2021.R
-import kotlinx.android.synthetic.main.fragment_ratings.*
-import kotlin.math.log
+
 
 
 class CalendarFragment : Fragment() {
@@ -50,7 +49,7 @@ class CalendarFragment : Fragment() {
         {
             Log.d("RATING", it.rating.toString())
             when (it.rating) {
-                1 -> {
+                5 -> {
                     icon = R.drawable.star
                     val calendar = Calendar.getInstance()
                     calendarView.setDate(calendar)
@@ -62,20 +61,58 @@ class CalendarFragment : Fragment() {
                     println(icon)
 
                 }
-                2 -> {
+                4 -> {
                     icon = R.drawable.smile
+                    val calendar = Calendar.getInstance()
+                    calendarView.setDate(calendar)
+
+                    val events: MutableList<EventDay> = ArrayList()
+                    calendar.add(Calendar.DAY_OF_MONTH, 0)
+                    events.add(EventDay(calendar, icon))
+                    calendarView.setEvents(events)
                 }
                 3 -> {
                     icon = R.drawable.confused
+                    val calendar = Calendar.getInstance()
+                    calendarView.setDate(calendar)
+
+                    val events: MutableList<EventDay> = ArrayList()
+                    calendar.add(Calendar.DAY_OF_MONTH, 0)
+                    events.add(EventDay(calendar, icon))
+                    calendarView.setEvents(events)
                 }
-                4-> {
+                2-> {
                     icon = R.drawable.sad
+                    val calendar = Calendar.getInstance()
+                    calendarView.setDate(calendar)
+
+                    val events: MutableList<EventDay> = ArrayList()
+                    calendar.add(Calendar.DAY_OF_MONTH, 0)
+                    events.add(EventDay(calendar, icon))
+                    calendarView.setEvents(events)
                 }
-                5 -> {
+                1 -> {
                     icon = R.drawable.crying
+                    val calendar = Calendar.getInstance()
+                    calendarView.setDate(calendar)
+
+                    val events: MutableList<EventDay> = ArrayList()
+                    calendar.add(Calendar.DAY_OF_MONTH, 0)
+                    events.add(EventDay(calendar, icon))
+                    calendarView.setEvents(events)
                 }
+
             }
+
         }
+//        icon = R.drawable.smile
+        val calendar1 = Calendar.getInstance()
+        calendarView.setDate(calendar1)
+
+        val events1: MutableList<EventDay> = ArrayList()
+        calendar1.add(Calendar.DAY_OF_MONTH, -1)
+        events1.add(EventDay(calendar1,  R.drawable.smile))
+        calendarView.setEvents(events1)
 
 
 //        println(Rating)
@@ -88,4 +125,5 @@ class CalendarFragment : Fragment() {
 
 
     }
+
 }

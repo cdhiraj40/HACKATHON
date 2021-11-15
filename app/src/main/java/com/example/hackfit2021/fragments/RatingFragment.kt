@@ -11,15 +11,12 @@ import android.view.ViewGroup
 import androidx.annotation.RequiresApi
 import androidx.lifecycle.ViewModelProvider
 import com.example.hackfit2021.R
-import com.example.hackfit2021.Model.RatingViewModel
-import com.example.hackfit2021.Model.RatingViewModelFactory
+import com.example.hackfit2021.model.RatingViewModel
+import com.example.hackfit2021.model.RatingViewModelFactory
 import com.example.hackfit2021.activities.TemplateActivity
 import com.example.hackfit2021.database.JournalsDatabase
 import kotlinx.android.synthetic.main.fragment_ratings.*
 import java.text.SimpleDateFormat
-import java.time.LocalDate
-import java.time.format.DateTimeFormatter
-import java.time.format.FormatStyle
 import java.util.*
 
 
